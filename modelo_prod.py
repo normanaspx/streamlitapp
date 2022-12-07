@@ -17,7 +17,7 @@ face_model = cv2.CascadeClassifier(cv2.data.haarcascades
 mask_label = {0: 'MASK', 1: 'NO MASK'}
 dist_label = {0: (0, 255, 0), 1: (255, 0, 0)}  # rectangle color
 
-model = null
+model = ''
 def plot_image(image, subplot):
     plt.subplot(*subplot)
     plt.imshow(image)
