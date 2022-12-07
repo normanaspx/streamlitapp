@@ -48,7 +48,7 @@ def predict_image(image_dir):
     plot_image(out_img, (1, 2, 2))
 
 
-
+st.title("DETECTOR DEL USO CORRECTO DE LA MASCARILLA")
 uploaded_file = st.file_uploader("Suba la imagen")
 #Add 'before' and 'after' columns
 if uploaded_file is not None:
