@@ -5,7 +5,7 @@ import matplotlib.image as mpimg
 import numpy as np
 from io import StringIO 
 from tensorflow.keras.models import load_model
-from cv2 import cv2
+import cv2
 import streamlit as st
 import os
 from  PIL import Image, ImageEnhance
